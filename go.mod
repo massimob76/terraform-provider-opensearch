@@ -1,4 +1,4 @@
-module github.com/opensearch-project/terraform-provider-opensearch
+module github.com/massimob76/terraform-provider-opensearch
 
 go 1.14
 

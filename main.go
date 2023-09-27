@@ -7,7 +7,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
 
-	"github.com/opensearch-project/terraform-provider-opensearch/provider"
+	"github.com/massimob76/terraform-provider-opensearch/provider"
 )
 
 // Generate docs for website
@@ -21,7 +21,7 @@ func main() {
 
 	if debugMode {
 		//nolint:staticcheck // SA1019 ignore this!
-		err := plugin.Debug(context.Background(), "registry.terraform.io/opensearch-project/terraform-provider-opensearch",
+		err := plugin.Debug(context.Background(), "registry.terraform.io/massimob76/terraform-provider-opensearch",
 			&plugin.ServeOpts{
 				ProviderFunc: provider.Provider,
 			},
